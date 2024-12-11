@@ -1,0 +1,7 @@
+&id001 !Person
+name: Arya
+siblings:
+- !Person
+  name: Sansa
+  siblings:
+  - *id001
